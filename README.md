@@ -33,17 +33,17 @@ This project is a simple customer segmentation web application built using **K-M
 
 ```
 customer_segmentation_app/
-├── model.py                  # Train and save KMeans model
-├── app.py                    # Flask app with prediction and plot generation
-├── customer_data.csv         # Dataset used for clustering
+├── model.py                
+├── app.py                   
+├── customer_data.csv        
 │
 ├── static/
-│   ├── style.css             # Gradient-based styling
-│   └── cluster_plot.png      # Prediction plot generated dynamically
+│   ├── style.css         
+│   └── cluster_plot.png      
 │
 └── templates/
-    ├── index.html            # Form to input features
-    └── result.html           # Shows predicted cluster and plot
+    ├── index.html         
+    └── result.html           
 ```
 
 ---
@@ -69,16 +69,15 @@ python app.py
 
 ## 📥 Input Fields
 
-- **Age** (e.g., 25)
-- **Annual Income** (in ₹ thousands, e.g., 60)
-- **Spending Score** (1–100, e.g., 80)
+<img width="617" height="474" alt="image" src="https://github.com/user-attachments/assets/4739858a-4eac-40c1-a432-6f89aa87f77b" />
+
+<img width="617" height="480" alt="image" src="https://github.com/user-attachments/assets/af9916cf-2987-4948-889e-2c91d54baa7e" />
 
 ---
 
 ## 📈 Output
 
-- **Cluster Label** (e.g., Cluster 2)
-- **Visual Scatter Plot** showing input in red over existing clusters
+<img width="569" height="535" alt="image" src="https://github.com/user-attachments/assets/765dec80-bd15-4416-8e8b-ef898e2eba8f" />
 
 ---
 
@@ -89,4 +88,13 @@ python app.py
 
 ---
 
-© 2025 - Customer Segmentation ML App | Built with ❤️ using Flask and K-Means
+## 🙋‍♂️ Author
+
+**Hari Prasath S**  
+[GitHub Profile](https://github.com/hariprasath2105)
+
+---
+
+## 📘 License
+
+This project is open source and free to use.
