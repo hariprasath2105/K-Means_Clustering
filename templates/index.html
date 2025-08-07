@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Segmentation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Segmentation</h1>
+        <form action="/predict" method="post">
+            <input type="number" name="age" placeholder="Enter Age (e.g. 25)" required min="15" max="100">
+            <input type="number" name="income" placeholder="Enter Annual Income (in ₹ thousands)" required min="10" max="1000" step="0.1">
+            <input type="number" name="score" placeholder="Enter Spending Score (1 to 100)" required min="1" max="100">
+            <button type="submit">Predict Cluster</button>
+        </form>
+    </div>
+</body>
+</html>
